@@ -1,21 +1,33 @@
 .outer-square {
-  /* your css goes here */
+
+  background-color: #fff;
+  
   width: 600px;
+  
   height: 600px;
+  
   display: grid;
+  
   grid-template-columns: repeat(3, 1fr);
+  
   grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
-}
-.inner-square {
-  /* your css goes here */
-  background-color: green; 
-  border-radius: 0px;
-}
-.circle {
-  /* your css goes here */
-  background-color: blue; 
-  border-radius:100px;
-}
-
-
+  
+  }
+  
+  .inner-square {
+  
+  background-color: green;
+  
+  margin: 10px;
+  
+  }
+  
+  .circle {
+  
+  background-color: blue;
+  
+  border-radius: 100%;
+  
+  margin: 10px;
+  
+  }
